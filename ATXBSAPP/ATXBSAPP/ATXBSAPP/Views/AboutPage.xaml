@@ -14,7 +14,7 @@
     </ContentPage.BindingContext>
     <ContentPage.ToolbarItems>
         <ToolbarItem Order="Primary" Icon="AppATXImagenchat.png" Priority="1" Clicked="Chat_Clicked" />
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems> 
 
     <ContentPage.Resources>
         <ResourceDictionary>
