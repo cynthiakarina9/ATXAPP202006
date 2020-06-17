@@ -197,7 +197,7 @@
                 <ViewCell>
                     <Grid Padding="10" >
                         <Grid.RowDefinitions Margin="0,20,0,20">
-                            <RowDefinition Height="0.3*" />
+                            <RowDefinition Height="*" />
                             <RowDefinition Height="1*" />
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
@@ -206,12 +206,12 @@
                         </Grid.ColumnDefinitions>
                         <!--<Image Grid.RowSpan="2" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" />-->
 
-                        <Image Grid.Row="0" Aspect="AspectFill" Margin="5,5,5,5" WidthRequest="150" Source="{Binding atx_urlimagen}"></Image>
-                        <Label Grid.Column="1" Text="{Binding atx_name}" Margin="5,5,5,5" TextColor="#0067b0" FontSize="Medium"></Label>
-                        <Label Grid.Row="1" VerticalOptions="CenterAndExpand" Margin="5,5,5,5" Text="{Binding atx_descripcion}" TextColor="Black"></Label>
+                        <Image Grid.Row="0" Aspect="AspectFill" Margin="5,5,5,5" WidthRequest="150" VerticalOptions="Center" Source="{Binding atx_urlimagen}"></Image>
+                        <Label Grid.Column="1" Text="{Binding atx_name}" Margin="5,5,5,5" VerticalOptions="Center" TextColor="#0067b0" FontSize="Medium"></Label>
+                        <Label Grid.Row="1" Margin="5,5,5,5" VerticalOptions="Center" Text="{Binding atx_descripcion}" TextColor="Black"></Label>
                         <!--<Label Text="{Binding adx_releasedate}" TextColor="#2e86c1" Margin="0,3,0,3"></Label>-->
 
-                        <Button Grid.Row="1" VerticalOptions="CenterAndExpand" Margin="5,5,5,5" Grid.Column="1" Text="Más información" CommandParameter="{Binding atx_urlmasinformacion}" Clicked="Mas_info_Clicked" TextColor="#1085c8" BackgroundColor="Transparent"/>
+                        <Button Grid.Row="1" Margin="5,5,5,5" Grid.Column="1" Text="Más información" VerticalOptions="Center" CommandParameter="{Binding atx_urlmasinformacion}" Clicked="Mas_info_Clicked" TextColor="#1085c8" BackgroundColor="Transparent"/>
 
                         <!--<Label Text="{Binding new_linkpost}" TextColor="Blue" Margin="0,3,0,15">></Label>-->
                     </Grid>

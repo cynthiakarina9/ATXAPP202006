@@ -25,6 +25,8 @@ namespace ATXBSAPP.ViewModels
             public string atx_fechadefinalizacion { get; set; }
             public string atx_linkderegistro { get; set; }
             public string atx_respuesta { get; set; }
+            public string atx_urlimagen { get; set; }
+            public string atx_urlmasinformacion { get; set; }
         }
         public class RootObject
         {
