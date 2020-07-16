@@ -14,8 +14,9 @@ namespace ATXBSAPP
         {
             InitializeComponent();
 
-            //DependencyService.Register<MockDataStore>();
+            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
+            //MainPage = new NavigationPage(new ItemsPage());
 
             AndroidSpecific.Application.SetWindowSoftInputModeAdjust(this, AndroidSpecific.WindowSoftInputModeAdjust.Resize);
 

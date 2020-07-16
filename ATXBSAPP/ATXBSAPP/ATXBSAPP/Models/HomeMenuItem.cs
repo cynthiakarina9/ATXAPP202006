@@ -13,8 +13,8 @@ namespace ATXBSAPP.Models
         Frecuency,
         Youtube,
         Retro,
-        Chat,
-        home_menu_edition
+        Chat
+        //home_menu_edition
     }
     public class HomeMenuItem
     {

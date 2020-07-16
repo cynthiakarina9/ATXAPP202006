@@ -18,10 +18,17 @@ namespace ATXBSAPP.Views
         public List<ValueN> weatherData = new List<ValueN>();
         public List<ValueN> weatherData2 = new List<ValueN>();
 
+
+        MainPage _MainPage;
+
+        
+
         RestService _restService;
+
         public ItemsPage()
         {
             InitializeComponent();
+            
             _restService = new RestService();
         }
 
@@ -45,12 +52,6 @@ namespace ATXBSAPP.Views
         {
             await Navigation.PushModalAsync(new NavigationPage(new Webinar()));
         }
-
-
-
-
-
-
 
 
         MainPage RootPage { get => Application.Current.MainPage as MainPage; }

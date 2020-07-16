@@ -26,7 +26,7 @@ namespace ATXBSAPP.Views
                 new HomeMenuItem {Id = MenuItemType.Frecuency, Title="Ebooks"},
                 new HomeMenuItem {Id = MenuItemType.Youtube, Title="Videos"},
                 new HomeMenuItem {Id = MenuItemType.About, Title="Acerca de"},
-                new HomeMenuItem {Id = MenuItemType.Retro, Title="Retroalimentación"},
+                new HomeMenuItem {Id = MenuItemType.Retro, Title="Retroalimentación"}
                 //new HomeMenuItem {Id = MenuItemType.home_menu_edition, Title="Menu 2.0"}
             };
 

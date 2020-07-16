@@ -65,10 +65,12 @@
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"/>-->
 
-        <Button Grid.Row="1"                                
+        <Button Grid.Row="1"    
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 ImageSource="AppATXImagenlogoatxnoticias2.png"   
-                AnchorX="200"
-                AnchorY="200"    
+                AnchorX="190"
+                AnchorY="190"    
                 Clicked="noticias"
                 BackgroundColor="Transparent"/>
 
@@ -85,28 +87,31 @@
                HorizontalOptions="CenterAndExpand"/>-->
 
         <Button Grid.Row="1" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 Grid.Column="1"
                 ImageSource="AppATXImagenlogoatxwebinars2.png"   
-                AnchorX="200"
-                AnchorY="200"   
+                AnchorX="190"
+                AnchorY="190"   
                 Clicked="webinars"
                 BackgroundColor="Transparent"/>
 
         <!--BoxView 3-->
 
         <BoxView Grid.Row="2"
-                 Color="Transparent" 
-                 Margin="15,7,7,15" 
+                 Color="Transparent"                  
                  CornerRadius="15" />
         <!--<Image Source="AppATXImagenlogoatxwebinars.png" 
                Grid.Row="2"                              
                VerticalOptions="CenterAndExpand" 
                HorizontalOptions="CenterAndExpand"/>-->
 
-        <Button Grid.Row="2"                                
+        <Button Grid.Row="2"    
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 ImageSource="AppATXImagenlogoatxsoluciones2.png"   
-                AnchorX="200"
-                AnchorY="200"   
+                AnchorX="190"
+                AnchorY="190"   
                 Clicked="soluciones"
                 BackgroundColor="Transparent"/>
 
@@ -114,8 +119,7 @@
 
         <BoxView Grid.Row="2"
                  Grid.Column="1"
-                 Color="Transparent"
-                 Margin="7,7,15,15"
+                 Color="Transparent"            
                  CornerRadius="15" />
 
         <!--<Image Source="AppATXImagenlogoatxebooks.png" 
@@ -125,28 +129,31 @@
                HorizontalOptions="CenterAndExpand"/>-->
 
         <Button Grid.Row="2" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"               
                 Grid.Column="1"
                 ImageSource="AppATXImagenlogoatxebooks2.png"   
-                AnchorX="200"
-                AnchorY="200"     
+                AnchorX="190"
+                AnchorY="190"     
                 Clicked="ebooks"
                 BackgroundColor="Transparent"/>
 
         <!--BoxView 5-->
 
         <BoxView Grid.Row="3"
-                 Color="Transparent" 
-                 Margin="15,7,7,15" 
+                 Color="Transparent"             
                  CornerRadius="15" />
         <!--<Image Source="AppATXImagenlogoatxvideos.png" 
                Grid.Row="3"               
                VerticalOptions="StartAndExpand" 
                HorizontalOptions="CenterAndExpand"/>-->
 
-        <Button Grid.Row="3"                                
+        <Button Grid.Row="3" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 ImageSource="AppATXImagenlogoatxvideos2.png"   
-                AnchorX="200"
-                AnchorY="200" 
+                AnchorX="190"
+                AnchorY="190" 
                 Clicked="videos"
                 BackgroundColor="Transparent"/>
 
@@ -154,8 +161,7 @@
 
         <BoxView Grid.Row="3"
                  Grid.Column="1"
-                 Color="Transparent"
-                 Margin="7,7,15,15"
+                 Color="Transparent"            
                  CornerRadius="15" />
         <!--<Image Source="AppATXImagenlogoatxacercade.png" 
                Grid.Row="3" 
@@ -163,10 +169,12 @@
                VerticalOptions="StartAndExpand"               
                HorizontalOptions="CenterAndExpand"/>-->
         <Button Grid.Row="3" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
                 Grid.Column="1"
                 ImageSource="AppATXImagenlogoatxacercade2.png"   
-                AnchorX="200"
-                AnchorY="200"   
+                AnchorX="190"
+                AnchorY="190"   
                 Clicked="acercade"
                 BackgroundColor="Transparent"/>
     </Grid>
