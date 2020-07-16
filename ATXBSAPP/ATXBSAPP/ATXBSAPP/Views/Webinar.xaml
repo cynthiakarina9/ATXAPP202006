@@ -10,7 +10,7 @@
         <!--<ToolbarItem IconImageSource="atx_logo.png" Priority="0" Clicked="home_Clicked"/>-->
         <ToolbarItem Icon="AppATXImagenchat.png" Clicked="Chat_Clicked" />
     </ContentPage.ToolbarItems>
-
+  
     <!--<ContentPage.Content>
         <ScrollView>
             <StackLayout>
