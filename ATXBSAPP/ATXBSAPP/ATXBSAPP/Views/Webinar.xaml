@@ -151,7 +151,7 @@
                     <Grid Padding="10" >
                         <Grid.RowDefinitions>
                             <RowDefinition Height="0.4*" />
-                            <RowDefinition Height="0.5*" />
+                            <RowDefinition Height="0.4*" />
                             <RowDefinition Height="0.4*" />
                             <RowDefinition Height="0.2*" />
                         </Grid.RowDefinitions>
